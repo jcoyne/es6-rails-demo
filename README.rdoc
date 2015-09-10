@@ -1,2 +1,0 @@
-The hello_world.es6 source is compiled into es5 at this url:
-http://localhost:3000/assets/application.js
