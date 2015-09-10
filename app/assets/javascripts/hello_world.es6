@@ -1,6 +1,6 @@
 import Cow from 'cow';
 
-class HelloWorld {
+export class HelloWorld {
   constructor(name) {
     this.name = name;
   }
