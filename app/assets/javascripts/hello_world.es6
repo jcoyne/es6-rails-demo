@@ -1,13 +1,13 @@
-import Cow from 'cow';
+import CrowdWaver from 'crowd_waver';
 
-export class HelloWorld {
+export default class {
   constructor(name) {
     this.name = name;
   }
 
-  sayName() {
-    c = new Cow();
-    c.moo();
-    alert(this.name);
+  sayHello() {
+    c = new CrowdWaver();
+    c.wave();
+    alert(`Hello to everyone at ${this.name}`);
   }
 }
